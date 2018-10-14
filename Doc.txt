@@ -1,2 +1,2 @@
 
-All Erased from Local
+This is added from Git remote
