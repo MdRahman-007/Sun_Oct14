@@ -1,2 +1,2 @@
 
-This is added from Git remote
+This is from branch
