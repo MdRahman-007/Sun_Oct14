@@ -1,0 +1,81 @@
+A. CREATE :   
+-----------
+1.	Clone an existing repository  - git clone ssh://user@domin.com/repo.git
+2.	Create a new local Repository - git init
+
+B. LOCAL CHANGES :   
+------------------
+1.	Check Changed files in directory - git status
+2.	Check Changes to track files     - git diff
+3.  Add Changes to next Commit		 - git add .
+4.  Add some changes <file> in commit- git add -p <file>
+5.	Commit all local changes         - git commit -a "Comment"
+6.  Change Last commit               - git commit --amend
+
+C. COMMIT HISTORY :   
+-------------------
+1.	Show all commits start with newest - git log
+2.  Show changes over time for a file  - git log -p <file>
+3.	Who Changed What & When            - git blame  <file>
+
+D. BRANCHES & TAGS :   
+--------------------
+1.  List all existing branches  - git branch -av
+2.  Switch HEAD BRANCHES        - git checkout <branch>
+3.	Create a new branch         - git branch <new-branch-name>
+4.  Delete a local branch.      - git branch -d <branch>
+5.  Mark the current commit     - git tag <tag Name>
+
+E. UPDATE & PUBLISH :   
+--------------------
+1. List all currently configured remotes - git remote -v
+2. Show information about a Remote       - git remote show <remote>
+3. Add remote repository                 - git remote add <shortname> <url>
+4. Dnld all chngs frm remote but intgrte - git fetch <remote>
+5. Dnld changes & Dirctly merge into Head- git pull <remote> <branch>
+6. Publish Local changes on a remote     - git push <remote> <branch>
+7. Delete a branch on the remote         - git branch -dr <remote/branch>
+8. publish your tags                     - git push --tags
+
+
+F. MERGE & REBASE :   
+-------------------
+1.	Merge branch into current head               -  git merge <branch>
+
+
+G. UNDO:   
+--------
+1.  Discard all local changes inyour working dir - git reset --hard HEAD
+2.  Discard local changes in a specific file     - git checkout HEAD <FileName>
+3.  Revert a commit                              - git revert <commit>
+4.  Reset your HEAD Pointer to a previous commit - git reset -- hard <commit>
+5.  Preserve all changes as unstaged changes     - git reset <commit>
+6.  Preserve uncommited local changes            - git reset --keep <commit>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
