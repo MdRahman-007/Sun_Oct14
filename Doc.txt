@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 This is from Remote
 This is from Remote
 This is from Remote
 This is from Remote
+=======
+****
+>>>>>>> master
